@@ -1,0 +1,24 @@
+@import "../components/_mixins.scss";
+
+.footer {
+  @extend %flex-center;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  .container {
+    @extend %flex-space-between;
+  }
+}
+
+.image {
+  width: 25%;
+}
+
+.col {
+  width: 57.4%;
+  h2 {
+    color: #413d4b;
+  }
+  p {
+    color: rgba(65, 61, 75, 0.75);
+  }
+}

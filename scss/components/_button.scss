@@ -1,0 +1,30 @@
+.btn {
+  font-family: $font-btn;
+  font-size: $btn-font-size;
+  text-transform: uppercase;
+  color: #00e0d0;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.card {
+  .btn {
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: border-color .15s linear;
+  }
+  .btn:hover {
+    border: 2px solid #00e0d0;
+  }
+}
+
+.footer {
+  .btn {
+    border: 2px solid #00e0d0;
+    transition: background-color .15s linear, color .15s linear;
+  }
+  .btn:hover {
+    color: #fff;
+    background-color: #00e0d0;
+
+  }
+}
